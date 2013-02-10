@@ -4,10 +4,10 @@ $(document).ready(function(){
 		if($(".selected", $(this)).length == 0){
 			var list = $("ul", $(this));
 			list.toggle();
-			$("h5", $(this)).click(function(){
+			$("h4", $(this)).click(function(){
 				$(this).toggleClass('twiddle-open');
 				list.toggle();
-			});			
+			});
 		}else{
 			$("h5", $(this)).toggleClass('twiddle-open');
 		}
