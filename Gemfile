@@ -5,6 +5,9 @@ gem 'rails', '3.2.11'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
+gem 'blacklight'
+gem 'devise'
+
 gem 'sqlite3'
 
 
@@ -36,3 +39,8 @@ gem 'jquery-rails'
 
 # To use debugger
 # gem 'debugger'
+
+gem "unicode", :platforms => [:mri_18, :mri_19]
+gem "devise"
+gem "devise-guests", "~> 0.3"
+gem "bootstrap-sass"
