@@ -160,6 +160,12 @@ GEM
     unicode (0.4.3.1)
     warden (1.2.1)
       rack (>= 1.0)
+    watir-rails (0.0.2)
+      rack
+      rails
+      watir-webdriver
+    watir-webdriver (0.6.2)
+      selenium-webdriver (>= 2.18.0)
     websocket (1.0.7)
     xpath (1.0.0)
       nokogiri (~> 1.3)
@@ -182,3 +188,4 @@ DEPENDENCIES
   sqlite3
   uglifier (>= 1.0.3)
   unicode
+  watir-rails
