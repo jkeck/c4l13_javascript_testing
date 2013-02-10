@@ -10,6 +10,9 @@ gem 'devise'
 
 gem 'sqlite3'
 
+gem 'rspec'
+gem 'rspec-rails'
+gem 'capybara'
 
 # Gems used only for assets and not required
 # in production environments by default.
